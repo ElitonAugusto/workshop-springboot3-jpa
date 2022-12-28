@@ -14,7 +14,7 @@ import com.projetospringboot.aula.services.UserService;
 
 @RestController
 @RequestMapping(value = "/users")
-public class CategotyResource {
+public class UserResource {
 	
 	@Autowired
 	private UserService service;
